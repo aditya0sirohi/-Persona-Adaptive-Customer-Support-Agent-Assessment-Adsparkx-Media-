@@ -1,0 +1,27 @@
+Analytics Knowledge Base
+
+--- Dashboard ---
+1. The dashboard provides an overview of key metrics.
+2. Customize dashboard widgets to suit your needs.
+3. Data refreshes every 15 minutes.
+4. Export dashboard data to CSV or PDF.
+5. Dashboard access is role-based.
+6. Historical data is available for up to 2 years.
+7. Dashboard themes can be changed in settings.
+8. Alerts can be set for specific metrics.
+9. Dashboard supports mobile and desktop views.
+10. Share dashboard reports with your team.
+
+--- Campaign Tracking ---
+11. Track campaign performance in real time.
+12. UTM parameters are supported for tracking sources.
+13. Campaign analytics include click-through and conversion rates.
+14. Set campaign goals and monitor progress.
+15. Automated reports are sent weekly.
+
+--- Reporting ---
+16. Generate custom reports from analytics data.
+17. Schedule reports for automatic delivery.
+18. Reports can be filtered by date, campaign, or user.
+19. Visualize data with charts and graphs.
+20. Export reports to Excel, PDF, or Google Sheets.

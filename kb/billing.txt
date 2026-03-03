@@ -1,0 +1,27 @@
+Billing Knowledge Base
+
+--- Subscription ---
+1. Our subscription plans are billed monthly or annually.
+2. Users can upgrade or downgrade their subscription anytime.
+3. Subscription changes take effect at the start of the next billing cycle.
+4. Payment reminders are sent 3 days before renewal.
+5. Invoices are available in the user dashboard.
+6. Failed payments result in a 7-day grace period.
+7. After the grace period, access is suspended until payment is received.
+8. Users can cancel subscriptions from their account settings.
+9. Cancellation stops future billing but does not refund past payments.
+10. Subscription support is available via chat and email.
+
+--- Refund Policy ---
+11. Refunds are processed within 5 business days of approval.
+12. Only payments made in the last 30 days are eligible for refund.
+13. Refund requests must include a valid reason.
+14. Partial refunds are available for annual plans.
+15. Refunds are credited to the original payment method.
+
+--- Payment Issues ---
+16. For payment failures, check your card details and balance.
+17. Contact support for unresolved payment issues.
+18. We accept Visa, MasterCard, and PayPal.
+19. Payment disputes are handled within 10 business days.
+20. Payment history is accessible in your account.

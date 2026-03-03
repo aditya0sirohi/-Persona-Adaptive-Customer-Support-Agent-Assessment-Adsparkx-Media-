@@ -1,0 +1,6 @@
+faiss-cpu
+sentence-transformers
+langchain
+fastapi
+uvicorn
+openai>=1.0.0
