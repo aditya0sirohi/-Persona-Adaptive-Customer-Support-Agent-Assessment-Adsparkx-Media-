@@ -197,3 +197,115 @@ Escalated response:
       "user_query": "...",
       "retrieved_context": [...],
       "summary": "..."
+}
+```
+## 6. DEMO SCREENSHOTS
+1. Executive Query
+
+Persona detected correctly
+
+Structured business-focused response
+
+<img width="1897" height="918" alt="Screenshot 2026-03-03 140733" src="https://github.com/user-attachments/assets/809e4441-5f3f-403d-a36d-8b52e85c0911" />
+
+
+2. Technical Query
+
+Detailed technical breakdown
+
+No unnecessary escalation
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 143616" src="https://github.com/user-attachments/assets/89724db0-50b3-4c5e-8cd8-25737b87cd5d" />
+
+
+3. Refund + Legal Threat
+
+Immediate escalation triggered
+
+Proper handoff packet generated
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 143653" src="https://github.com/user-attachments/assets/b90fe250-2587-4a56-8bff-d0c766886f3b" />
+
+
+4. Frustrated but Recoverable
+
+Empathetic response
+
+No over-escalation
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 143752" src="https://github.com/user-attachments/assets/5dd7a451-5ca5-4e40-b538-1095a41044e6" />
+
+
+5. Out-of-Scope Query
+
+Low confidence handling
+
+KB-driven fallback
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-03 143815" src="https://github.com/user-attachments/assets/3d9309e9-0f24-4ab2-ad2f-3a93590a2abf" />
+
+## 7.Future Scope & Production Extensions
+This system is designed to be extended into a full-scale support infrastructure.
+
+1. Ticketing System Integration
+
+Integrate with Zendesk / Freshdesk APIs
+
+Auto-create tickets when escalation occurs
+
+Include handoff packet as ticket metadata
+
+2. Email-Based Support Automation
+
+Connect via SMTP or Gmail API
+
+Auto-detect persona from email body
+
+Generate draft responses
+
+Route escalations to support queue
+
+3. Persistent Vector Database
+
+Replace in-memory FAISS with:
+
+Pinecone
+
+Weaviate
+
+ChromaDB
+
+Enable dynamic KB updates
+
+4. Conversation Memory
+   Add session-based memory
+
+Track multi-turn conversations
+
+Improve contextual continuity
+
+5. ML-Based Escalation Classifier
+
+Replace keyword logic with trained sentiment model
+
+Reduce false positives further
+
+6. Analytics Dashboard
+
+Track:
+
+Escalation rate
+
+Persona distribution
+
+Confidence scores
+
+Query categories
+
+8. Running the Project
+uvicorn main:app --reload
+
+Environment Variable:
+
+OPENROUTER_API_KEY=your_key_here
+
